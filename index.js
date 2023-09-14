@@ -1,4 +1,4 @@
-fetch('https://api.coingecko.com/api/v3/simple/price?ids=Bitcoin%2CEthereum%2Cripple%2Csolana%2Ccardano%2CStellar%2CHedera&vs_currencies=usd&include_24hr_change=true')
+fetch('https://api.coingecko.com/api/v3/simple/price?ids=Bitcoin%2CRipple%2CCardano%2CEthereum%2CStellar&vs_currencies=usd&include_24hr_change=true')
     .then(res => res.json())
     .then(json => {
         const container = document.querySelector('.container');
